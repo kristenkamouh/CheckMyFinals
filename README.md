@@ -20,11 +20,9 @@ These instructions assume you have Git installed and a modern web browser (Chrom
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/YOUR_GITHUB_USERNAME/CheckMyFinals.git
+git clone https://github.com/kristenkamouh/CheckMyFinals.git
 cd CheckMyFinals
 ```
-
-Replace `YOUR_GITHUB_USERNAME` with your GitHub handle or the organization that hosts the repo.
 
 ### 2. Run the app
 
@@ -58,7 +56,4 @@ Contributions are welcome. Typical workflow:
 3. Make your changes and test them locally.
 4. Open a pull request describing what you changed and why.
 
-## License
-
-Add your preferred open‑source license here (for example MIT, Apache‑2.0, or GPL‑3.0). If you plan to share the project publicly, it is recommended to include a `LICENSE` file at the root of the repository.
 
