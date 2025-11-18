@@ -1,0 +1,173 @@
+/* ========================================
+   EXAM SEARCH PAGE SPECIFIC STYLES
+   ======================================== */
+
+/* --- OPEN SOURCE BANNER --- */
+.opensource-banner {
+    max-width: 900px;
+    margin: 20px auto 10px auto;
+    padding: 10px 16px;
+    background-color: #eef2ff;
+    border: 1px solid #c7d2fe;
+    border-radius: 6px;
+    font-size: 14px;
+    color: #4338ca;
+    text-align: center;
+}
+
+.opensource-banner a {
+    color: #4f46e5;
+    font-weight: 600;
+}
+
+/* --- STEP BADGES --- */
+.step-badge {
+    background-color: #e0e7ff;
+    color: #4f46e5;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 4px 8px;
+    border-radius: 4px;
+    margin-right: 10px;
+}
+
+/* --- UPLOAD AREA --- */
+.upload-box {
+    position: relative;
+}
+
+.file-input-label {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 150px;
+    border: 2px dashed #cbd5e0;
+    border-radius: 8px;
+    background-color: #f7fafc;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.file-input-label:hover {
+    border-color: #4f46e5;
+    background-color: #eef2ff;
+}
+
+.upload-icon {
+    width: 40px;
+    height: 40px;
+    margin-bottom: 10px;
+    color: #a0aec0;
+}
+
+.file-input-label:hover .upload-icon {
+    color: #4f46e5;
+}
+
+#uploadStatus {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 13px;
+    font-weight: 500;
+    min-height: 20px;
+}
+
+.status-success { color: #16a34a; }
+.status-error { color: #dc2626; }
+.status-loading { color: #4f46e5; }
+
+/* --- SEARCH BOX --- */
+.search-container {
+    display: flex;
+    gap: 10px;
+}
+
+.search-input {
+    flex-grow: 1;
+    padding: 12px 15px;
+    border: 1px solid #cbd5e0;
+    border-radius: 6px;
+    font-size: 16px;
+    outline: none;
+    transition: border 0.2s;
+}
+
+.search-input:focus {
+    border-color: #4f46e5;
+    box-shadow: 0 0 0 3px rgba(79, 70, 229, 0.1);
+}
+
+.search-btn {
+    padding: 0 25px;
+    background-color: #4f46e5;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+.search-btn:hover {
+    background-color: #4338ca;
+}
+
+/* --- TABLE RESULTS --- */
+.results-wrapper {
+    max-height: 400px;
+    overflow-y: auto;
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 14px;
+}
+
+thead {
+    position: sticky;
+    top: 0;
+    background-color: #f8fafc;
+    z-index: 10;
+}
+
+th {
+    text-align: left;
+    padding: 12px 15px;
+    font-weight: 600;
+    color: #64748b;
+    border-bottom: 1px solid #e2e8f0;
+}
+
+td {
+    padding: 12px 15px;
+    border-bottom: 1px solid #f1f5f9;
+    color: #334155;
+}
+
+tr:hover {
+    background-color: #f8fafc;
+}
+
+.course-code {
+    font-weight: 700;
+    color: #4f46e5;
+}
+
+.room-tag {
+    background-color: #edf2f7;
+    padding: 3px 6px;
+    border-radius: 4px;
+    font-family: monospace;
+    font-size: 12px;
+}
+
+.no-results-msg {
+    text-align: center;
+    padding: 40px;
+    color: #94a3b8;
+}
